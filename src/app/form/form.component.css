@@ -1,0 +1,7 @@
+.create-book {
+  padding: 40px;
+}
+
+.create-book__button {
+  min-width: 200px;
+}

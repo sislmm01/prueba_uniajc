@@ -1,0 +1,12 @@
+<div class="books">
+  <h1>Consultar Libros</h1>
+  <ul class="books__container">
+    <li class="book" *ngFor="let book of books">
+      <h5 class="book__title">{{ book.name }}</h5>
+      <p>Autor: {{ book.author }}</p>
+      <p>Fecha publicacion: {{ book.publicationDate }}</p>
+      <p>Disponible: {{ book.available }}</p>
+      <p>Valor: {{ book.price }}</p>
+    </li>
+  </ul>
+</div>
